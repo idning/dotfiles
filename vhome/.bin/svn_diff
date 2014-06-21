@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+if [ -d ./.svn ]
+  then
+    echo "doing"
+  else
+    echo "no svn base"
+    exit
+
+fi
+
+
+if [ -d /tmp/svn_diff ]
+  then
+    rm -rf /tmp/svn_diff
+fi
+
+cp . -rf /tmp/svn_diff
+cd /tmp/svn_diff & svn revert * -R
+kdiff3 ./ /tmp/svn_diff
+

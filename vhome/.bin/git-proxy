@@ -1,0 +1,2 @@
+#!/bin/sh 
+exec ~/.bin/corkscrew  172.19.1.2 8217 $* 

@@ -1,0 +1,26 @@
+#!/bin/bash
+# focus the firefox url bar
+WID=`xdotool search "ning@ning-laptop:~/test" | head -1`
+
+#DSK=`xdotool get_desktop`
+
+echo 'WID:' $WID
+#echo $DSK
+
+if [[ $WID != "" ]]; then
+    echo 'Raise window'
+    xdotool windowraise  $WID
+    xdotool windowactivate $WID
+    #xdotool set_desktop_for_window $WID 1
+else 
+    echo 'Create window'
+    gnome-terminal --working-directory='/home/ning/test'
+fi 
+
+
+
+
+#xdotool windowactivate --sync $WID
+#xdotool key --clearmodifiers ctrl+l
+
+

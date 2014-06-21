@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sheet xmlns="http://www.lysator.liu.se/~alla/dia/dia-sheet-ns">
+<!--Dia-Version: 0.97.1-->
+<!--File: /home/ning/.dia/sheets/Assorted.sheet-->
+<!--Date: Sun Dec  2 14:26:20 2012-->
+<!--For: ning-->
+
+<name>Assorted</name>
+<description>An Assorted Collection of Polygons, Beziergons and other Miscellaneous Geometric Shapes</description>
+<contents>
+<!--add shapes here-->
+<object name="Geometric - Right Angle Triangle">
+<description>Right angle triangle</description></object><object name="Geometric - Isoceles Triangle">
+<description>Isoceles triangle</description></object><object name="Geometric - Perfect Square">
+<description>Perfect square, height equals width</description></object><object name="Geometric - Perfect Circle">
+<description>Perfect circle</description></object><object name="Geometric - Quarter Circle">
+<description>Quarter circle</description></object><object name="Geometric - Diamond">
+<description>Diamond</description></object><object name="Geometric - Pentagon">
+<description>Pentagon. Five sided shape</description></object><object name="Geometric - Hexagon">
+<description>Hexagon. Six sided shape</description></object><object name="Geometric - Heptagon">
+<description>Heptagon. Seven sided shape</description></object><object name="Geometric - Octogon">
+<description>Octogon. Eight sided shape</description></object><object name="Geometric - Horizontal Parallelogram">
+<description>Horizontal parallelogram</description></object><object name="Geometric - Vertical Parallelogram">
+<description>Vertical parallelogram</description></object><object name="Geometric - Trapezoid">
+<description>Trapezoid</description></object><object name="Geometric - Four Point Star">
+<description>Four point star</description></object><object name="Geometric - Curved Four Point Star">
+<description>Curved four point star</description></object><object name="Geometric - Five Point Star">
+<description>Five point star</description></object><object name="Geometric - Six Point Star">
+<description>Six point star</description></object><object name="Geometric - Seven Point Star">
+<description>Seven point star</description></object><object name="Geometric - Eight Point Star">
+<description>Eight point star</description></object><object name="Geometric - Sharp Eight Point Star">
+<description>Sharp eight point star</description></object><object name="Geometric - Curved Eight Point Star">
+<description>Curved eight point star</description></object><object name="Geometric - Swiss Cross">
+<description>Swiss cross</description></object><object name="Geometric - Maltese Cross">
+<description>Maltese cross</description></object><object name="Geometric - Down Arrow">
+<description>Down arrow</description></object><object name="Geometric - Up Arrow">
+<description>Up arrow</description></object><object name="Geometric - Left Arrow">
+<description>Left arrow</description></object><object name="Geometric - Right Arrow">
+<description>Right arrow</description></object><object name="Geometric - Notched Left Arrow">
+<description>Notched left arrow</description></object><object name="Geometric - Notched Right Arrow">
+<description>Notched right arrow</description></object><object name="Assorted - Left-Up Arrow">
+<description>Left-up arrow</description></object><object name="Assorted - Turn-Up Arrow">
+<description>Turn-up arrow</description></object><object name="Geometric - Left-Right Arrow">
+<description>Left-right arrow</description></object><object name="Geometric - Up-Down Arrow">
+<description>Up-down arrow</description></object><object name="Geometric - Quad Arrow">
+<description>Quad arrow</description></object><object name="Geometric - Left-Right-Up Arrow">
+<description>Left-right-up arrow</description></object><object name="Geometric - Up-Down-Left Arrow">
+<description>Up-down-left arrow</description></object><object name="Block Arrow - Pentagon">
+<description>Pentagon block arrow</description></object><object name="Block Arrow - Chevron">
+<description>Chevron</description></object><object name="Assorted - Heart">
+<description>Heart</description></object><object name="Assorted - Sun">
+<description>Sun</description></object><object name="Assorted - Quarter Moon">
+<description>Quarter moon</description></object><object name="t - test">
+<description>test</description></object></contents></sheet>

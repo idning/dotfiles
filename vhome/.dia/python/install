@@ -1,0 +1,19 @@
+Requirements
+Dia v0.97
+Python 2.6 (Python 2.4 should work too)
+Python modules
+gtk
+gtk.glade
+subprocess
+ConfigParser
+Under Linux you can easily satisfy requirements with your actual packet manager or compiling from sources, under Windows have a look at Windows Dia installation documentation.
+
+Installation
+Download tarball or bzr branch from launchpad.net.
+
+Put scriptlauncher.py and scriptlauncher dir and all its contents under ~/.dia/python (the python directory under the .dia directory in your home. If the python directory is not present, create it. Under Windows, should be something like C:\Documents and Settings\yourlogin\.dia\python or %USERPROFILE%/.dia/python, or have a look at Dia's FAQ).
+
+All done.
+
+Launch Dia and under Dialogs menu should find an entry named Script Launcher (as in screenshots).
+Edit the scriptlauncher.cfg file (in scriptlauncher dir) with any kind of text editor to customize commands, create new ones at will.

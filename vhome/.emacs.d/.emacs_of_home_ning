@@ -1,0 +1,9 @@
+; -------------------plugins path ----------------------
+
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/plugin/"))
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/"))
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/auto-install/"))
+
+
+
+(require 'ning)

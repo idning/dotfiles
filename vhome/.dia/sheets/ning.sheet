@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sheet xmlns="http://www.lysator.liu.se/~alla/dia/dia-sheet-ns">
+<!--Dia-Version: 0.97.1-->
+<!--File: /home/ning/.dia/sheets/ning.sheet-->
+<!--Date: Sun Dec  2 16:00:43 2012-->
+<!--For: ning-->
+
+<name>ning</name>
+<description></description>
+<contents>
+<!--add shapes here-->
+<object name="Flowchart - Box">
+<description>Process/Auxiliary Operation</description></object><object name="Flowchart - Diamond">
+<description>Decision</description></object><object name="Flowchart - Ellipse">
+<description>Connector</description></object><object name="Flowchart - Display">
+<description>Display</description></object><object name="Flowchart - Magnetic Disk">
+<description>Magnetic disk</description></object><object name="Flowchart - Punched Card">
+<description>Punched card</description></object><object name="AADL - Thread Group">
+<description>Thread Group</description></object><object name="Filesystem - File">
+<description>File</description></object><object name="SDL - Comment">
+<description>Comment</description></object><object name="SDL - Function">
+<description>Function call</description></object><object name="UML - Class" intdata="0">
+<description>Class</description></object><object name="UML - Note">
+<description>Note</description></object><object name="UML - LargePackage">
+<description>Large package</description></object><object name="ning - brace2">
+<description>brace2</description></object><object name="ning - brace3">
+<description>brace3</description></object><object name="ning - hbrace1">
+<description>hbrace1</description></object><object name="ning - hbrace2">
+<description>hbrace2</description></object></contents></sheet>

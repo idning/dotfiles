@@ -1,0 +1,18 @@
+#!/usr/bin/env python
+
+import sys
+
+import json
+
+def json_encode(j):
+    return json.dumps(j, indent=4, ensure_ascii=False)
+
+def json_decode(j):
+    return json.loads(j, 'latin-1')
+
+
+data = sys.stdin.read()
+data = data.encode('utf8')
+
+print data
+print json_encode(json_decode(data))

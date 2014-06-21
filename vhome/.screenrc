@@ -1,0 +1,26 @@
+##initial apps to run
+
+#Use C-A instead of C-a since C-a is used in bash for "go to beginning of line."
+##first letter defines the screen command key.
+##second letter defines the literal insert key.
+#escape ^AA
+#
+
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "%{.bW}%-w%{.rY}%n %t%{-}%+w %=%{..G} %H(%l) %{..Y} %Y/%m/%d %c:%s "
+#vbell off
+#否则在screen+vi下, ctrl+left会导致vi删掉多行.
+term xterm
+
+# F11
+bindkey -k F1 prev
+# F12
+bindkey -k F2 next
+
+screen
+screen
+screen
+screen
+select 0
+

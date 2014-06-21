@@ -1,0 +1,4 @@
+#!/bin/bash
+
+svn ci `svn st | egrep '[MA] *' | sed 's/[MA] *//' | grep -v Makefile | awk '{printf("%s ",$0)}' `
+

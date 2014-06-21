@@ -1,0 +1,46 @@
+;[http]
+	;proxy = http://10.100.1.216:3128/
+;[color]
+	;ui = auto
+;[user]
+	;name = YongFeng Liu
+	;email = liuyfc@lenovo.com
+;[core]
+	;gitproxy = /home/ning/.bin/git-proxy
+[color]
+	ui = auto
+[user]
+	name = idning
+	email = idning@gmail.com
+
+[alias] 
+    st = status 
+    ci = commit -a 
+    co = checkout  
+    info = !gitinfo.sh
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ci) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+    meld = !/home/ning/idning-source/tools/git-meld/git-meld.pl
+
+[github]
+	user = idning
+    token = b1963d693c7e489a0983611526fbbf39a093a1a3
+[commit]
+	template = ~/.git/commit_template
+
+; difftool config, noisy... 
+; (ENV)ning@ning-laptop ~/idning-github/mongo/src/mongo$ git difftool 17b3f0f HEAD -- s/strategy_shard.cpp
+;
+[diff]
+	tool = meld
+[difftool]
+    prompt = false
+[difftool "meld"]
+    cmd = meld
+
+[push]
+	default = matching
+[credential]
+	helper = cache --timeout=36000000
+[http]
+	postBuffer = 524288000
