@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import glob, os, sys, time
 
-from subprocess import * 
+from subprocess import *
 
 def system(cmd):
     print cmd
@@ -14,7 +14,11 @@ def system(cmd):
 
 
 files = glob.glob('.*')
-files.remove('.svn')
+
+if '.git' in files:
+    files.remove('.git')
+if '.svn' in files:
+    files.remove('.svn')
 
 print files
 
