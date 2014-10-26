@@ -161,9 +161,9 @@ alias noporxy='export http_proxy=;export https_proxy=;export all_proxy=;export H
 alias tcpflow='tcpflow -c'
 alias http_tshark='sudo tshark -i wlan0 "tcp port 80" '
 alias http_wireshark='sudo wireshark  -iwlan0 -k -w /tmp/wireshark.log -f "tcp port 80" -R "http and tcp.len>0"'   #please use filter http and tcp.len>0
-alias http_tcpflow='sudo tcpflow -iwlan0 -b 200 -c "host 74.125.71.138 or host www.baidu.com" | tee /tmp/tcpflow.log'
+alias http_tcpflow='sudo tcpflow -iwlan0 -b 200 -c "host 74.125.71.138 or host www.google.com" | tee /tmp/tcpflow.log'
 #alias http_justniffer='sudo justniffer -iwlan0 -rx'
-alias http_justniffer='sudo justniffer -p "host bs.baidu.com" -iwlan0 -l "----------------------------------------------------------------%newline%request%newline%response"'
+alias http_justniffer='sudo justniffer -p "host www.google.com" -iwlan0 -l "----------------------------------------------------------------%newline%request%newline%response"'
 alias http_urlsnarf='sudo urlsnarf -i wlan0'
 alias tcpdump='tcpdump -p -i wan0' #非混杂模式.
 alias ctags='ctags --sort=no' #不排序, 参看./notes/misc/vim-ctags-vs-cscope.rst
